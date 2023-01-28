@@ -1,0 +1,18 @@
+<body style="color:black; list-style:none">
+<h1>Carga horária das aulas do 1° Semestre de 2023 do Desenvolvimento de Sistemas de Multiplataformas</h1>
+
+{{#mostrar}}
+
+<hr/>
+
+<li>
+  {{#grade}}
+  <li>{{.}}</li>
+  {{/grade}}
+<li/>
+
+{{/mostrar}}
+
+<hr/>
+
+</body>
